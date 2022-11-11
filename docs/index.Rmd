@@ -11,9 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Covid Report
-I write a paragraph here. I will highlight that the total number of US cases is `r get_total_cases()`. And, the total number of US deaths is `r get_total_deaths()`. 
-
-(**Note**: Why are there no commas in the *total number of US deaths* ? Can you change `analysis.R` file so that the number is commented with commas?)
+The total number of U.S. cases is `r get_total_cases()`. The total cases means how many people got COVID-19 in the U.S. Additionally, the total number of U.S. deaths is `r get_total_deaths()`. The number of deaths shows how many people have died of COVID-19 since the beginning of the pandemic. The line represents the number of cases. As of this month, the line is shown to be more horizontal so the cases are slowing down and we are not getting many new cases.
 
 I also want to show the chart:
 ``` {r echo=FALSE}
